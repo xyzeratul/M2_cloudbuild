@@ -12,3 +12,5 @@
 
 # Uncomment a feed source
 #echo 'src-git custom https://github.com/xiaorouji/openwrt-passwall.git;packages' >>feeds.conf.default
+echo "src-git kenzok8 https://github.com/kenzok8/small-package.git" >> "feeds.conf.default"
+echo "src-git small https://github.com/kenzok8/small.git" >> "feeds.conf.default"
