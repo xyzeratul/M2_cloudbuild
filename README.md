@@ -1,3 +1,6 @@
+https://github.com/openwrt-fork/zn-m2-openwrt-build/tree/zn-m2
+
+
 <div align="center">
   <h1 align="center">
      IPQ60xx & MT798x 设备的 OpenWrt 固件发布页面
@@ -42,6 +45,3 @@ luci-app-zerotier
 
 ## 固件预览
 ![image](https://github.com/sdf8057/cloudbuild/blob/main/pic/overview.png)
-
-## 微信打赏
-![image](https://github.com/sdf8057/cloudbuild/blob/main/pic/reward_qrcode.png)
