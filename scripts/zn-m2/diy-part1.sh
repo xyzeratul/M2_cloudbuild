@@ -16,4 +16,4 @@
 #echo "src-git small https://github.com/kenzok8/small.git" >> "feeds.conf.default"
 
 git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
-git clone https://github.com/sirpdboy/luci-app-advanced.git package/advanced
+#git clone https://github.com/sirpdboy/luci-app-advanced.git package/advanced
