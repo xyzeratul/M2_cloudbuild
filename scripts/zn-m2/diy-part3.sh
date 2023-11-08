@@ -19,5 +19,7 @@
 # design修改proxy链接
 #sed -i -r "s#navbar_proxy = 'openclash'#navbar_proxy = 'passwall'#g" feeds/luci/themes/luci-theme-design/luasrc/view/themes/design/header.htm
 
+sed -i 's/OpenWrt/ZNM2/' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.6.1/g' package/base-files/files/bin/config_generate
 sed -i 's/luci-theme-bootstrap/luci-theme-argonv3/' feeds/luci/collections/luci/Makefile
 sed -i 's/Bootstrap theme/Argonv3 theme/' feeds/luci/collections/luci/Makefile
