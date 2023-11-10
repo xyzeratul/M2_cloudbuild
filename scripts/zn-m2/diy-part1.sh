@@ -28,4 +28,4 @@ git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
 
 #SmartDNS官方版本
 git clone https://github.com/pymumu/openwrt-smartdns.git package/smartdns
-git clone https://github.com/pymumu/luci-app-smartdns.git;lede package/luci_smartdns
+git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci_smartdns
