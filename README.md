@@ -21,7 +21,7 @@ https://github.com/openwrt-fork/zn-m2-openwrt-build/tree/zn-m2
 <br>
 
 ## ipq6000固件特性：  
-0.默认后台地址192.168.100.1；默认后台密码password。  
+0.默认后台地址192.168.6.1；默认后台密码password。  
 1.添加cpu温度、频率以及npu占用率显示。  
 2.修复nat环回功能失效bug。  
 3.cpu超频至1.6ghz，跑分2w+。  
