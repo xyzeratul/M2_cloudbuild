@@ -17,7 +17,7 @@
 #echo 'src-git small https://github.com/xiaorouji/openwrt-passwall-packages.git;main' >>feeds.conf.default
 
 #动态域名解析
-git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
+#git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
 
 #高级设置含文件管理
 #git clone https://github.com/sirpdboy/luci-app-advanced.git package/advanced
@@ -29,3 +29,6 @@ git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
 #SmartDNS官方版本
 git clone https://github.com/pymumu/openwrt-smartdns.git package/smartdns
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci_smartdns
+
+#luci-app-lucky
+git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
