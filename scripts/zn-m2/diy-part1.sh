@@ -22,7 +22,7 @@ git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
 #高级设置含文件管理
 #git clone https://github.com/sirpdboy/luci-app-advanced.git package/advanced
 
-#lede mosdns 5.1.3
+#lede mosdns 5.1.3 无法更新
 #git clone https://github.com/ws245909346/luci-app-mosdns package/mosdns
 #git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 
