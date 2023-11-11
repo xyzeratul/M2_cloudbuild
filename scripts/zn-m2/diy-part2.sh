@@ -10,9 +10,9 @@
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
 #优先安装 passwall 源
-#./scripts/feeds install -a -f -p passwall_packages
-#./scripts/feeds install -a -f -p passwall_luci
+./scripts/feeds install -a -f -p passwall
+./scripts/feeds install -a -f -p pwsmall
 
 #安装istore-feeds
-./scripts/feeds update istore
-./scripts/feeds install -d y -p istore luci-app-store
+#./scripts/feeds update istore
+#./scripts/feeds install -d y -p istore luci-app-store
